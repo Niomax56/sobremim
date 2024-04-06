@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página com Imagem</title>
+    <style>
+        body {
+            background-color: #fff; 
+            margin: 0; 
+            padding: 0; 
+            font-family: Arial, sans-serif; 
+        }
+
+        .container {
+            max-width: 800px; 
+            margin: auto; 
+            padding: 20px; 
+            background-color: #f9f9f9; 
+            border-radius: 5px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        }
+
+        h1 {
+            text-align: center; 
+        }
+
+        img {
+            display: block; 
+            margin: 0 auto 20px; 
+            max-width: 100%; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Minha Página com Imagem</h1>
+        <img src="caminho/para/sua/imagem.jpg" alt="Descrição da imagem">
+        <p>Este é um parágrafo de exemplo. Você pode adicionar mais conteúdo aqui.</p>
+    </div>
+</body>
+</html>
